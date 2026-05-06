@@ -93,3 +93,19 @@ a {
   background: transparent;
   border: 2px solid #02033b;
 }
+
+.hero-media {
+  position: relative;
+  margin-left: auto;
+  max-width: 620px;
+}
+.hero-media img.hero-bg {
+  border: 12px solid blue;
+}
+.hero-media img.android-dashboard {
+  position: absolute;
+  top: 14%;
+  left: 5%;
+  width: 240px;
+  z-index: 2;
+}

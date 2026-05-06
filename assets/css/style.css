@@ -36,3 +36,15 @@ a {
 .nav-link:hover {
   color: #4335de;
 }
+
+
+.nav-toggle {
+  display: none;
+}
+.navbar-menu {
+  display: flex;
+  margin-left: auto;
+}
+.navbar-toggler {
+  display: none;
+}

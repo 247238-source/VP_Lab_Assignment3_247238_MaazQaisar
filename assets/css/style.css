@@ -237,3 +237,21 @@ section h2,
   color: #ffffff;
   border-color: #ffffff;
 }
+
+
+.insights-section {
+  padding: 95px 0;
+  background: #e7f8f2;
+}
+.insight-card {
+  height: 100%;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 24px 60px rgba(2, 3, 59, 0.12);
+}
+.insight-card > img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}

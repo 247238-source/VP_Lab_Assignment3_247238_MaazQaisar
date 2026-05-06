@@ -255,3 +255,20 @@ section h2,
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
+
+
+.insight-body {
+  padding: 28px;
+}
+.insight-body span {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: #4335de;
+  font-size: 14px;
+  font-weight: 900;
+}
+.insight-card h3 {
+  margin: 0 0 16px;
+  font-size: 22px;
+  line-height: 1.25;
+}

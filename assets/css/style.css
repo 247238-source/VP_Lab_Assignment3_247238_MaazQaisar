@@ -6,3 +6,13 @@ img {
   height: auto;
   display: block;
 }
+body {
+  margin: 0;
+  color: #16163f;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  letter-spacing: 0;
+}
+a {
+  text-decoration: none;
+}

@@ -227,3 +227,13 @@ section h2,
 .spying-section h2, .spying-section p {
   color: #ffffff;
 }
+
+.spying-section .btn.btn-primary-custom {
+  background: #ffc247;
+  color: #02033b;
+  border-color: #ffc247;
+}
+.spying-section .btn.btn-outline-custom {
+  color: #ffffff;
+  border-color: #ffffff;
+}

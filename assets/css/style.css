@@ -81,3 +81,15 @@ a {
   font-size: 20px;
   line-height: 1.55;
 }
+
+
+.btn-primary-custom {
+  color: white;
+  background: blue;
+  border: 2px solid blue;
+}
+.btn-outline-custom {
+  color: #02033b;
+  background: transparent;
+  border: 2px solid #02033b;
+}

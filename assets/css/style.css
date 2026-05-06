@@ -110,6 +110,23 @@ a {
   z-index: 2;
 }
 
+.hero-copy h1,
+section h2,
+.site-footer h2 {
+  color: #02033b;
+  font-weight: 900;
+  line-height: 1.03;
+}
+
+.reviews-section h2,
+.trust-section h2,
+.features-section h2,
+.spying-section h2,
+.insights-section h2 {
+  margin: 0;
+  font-size: 42px;
+}
+
 .reviews-section {
   padding: 88px 0;
   background: #ffc247;

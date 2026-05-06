@@ -58,3 +58,9 @@ a {
   font-weight: 800;
   white-space: normal;
 }
+
+
+.hero-section {
+  padding: 80px 0 95px;
+  overflow: hidden;
+}

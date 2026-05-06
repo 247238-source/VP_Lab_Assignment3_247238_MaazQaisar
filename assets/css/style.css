@@ -121,3 +121,13 @@ a {
   border-radius: 8px;
   box-shadow: 0 24px 60px rgba(2, 3, 59, 0.12);
 }
+
+.stars {
+  width: 260px;
+  margin-bottom: 24px;
+}
+.review-card p {
+  color: #16163f;
+  font-size: 18px;
+  line-height: 1.6;
+}

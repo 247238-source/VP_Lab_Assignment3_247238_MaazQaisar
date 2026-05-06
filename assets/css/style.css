@@ -171,3 +171,16 @@ section h2,
   font-size: 19px;
   line-height: 1.65;
 }
+
+.features-section {
+  padding: 105px 0;
+  background-color: #f2f8ff; /* Added a light background to contrast the white card */
+}
+.features-card {
+  box-shadow: 0 24px 60px rgba(2, 3, 59, 0.08);
+}
+.feature-item {
+  height: 100%;
+  padding: 8px;
+  text-align: center;
+}

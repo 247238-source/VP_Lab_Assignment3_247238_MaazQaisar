@@ -184,3 +184,20 @@ section h2,
   padding: 8px;
   text-align: center;
 }
+
+.feature-item img {
+  width: 77px;
+  height: 72px;
+  margin: 0 auto 22px;
+}
+.feature-item h3 {
+  color: #02033b;
+  font-weight: 900;
+  margin: 0 0 12px;
+  font-size: 24px;
+}
+.feature-item p {
+  color: #5c6485;
+  font-size: 16px;
+  line-height: 1.6;
+}

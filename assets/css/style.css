@@ -153,3 +153,9 @@ section h2,
   font-size: 18px;
   line-height: 1.6;
 }
+
+.trust-image {
+  width: 100%;
+  border: 12px solid #ffc247;
+  box-shadow: 0 24px 60px rgba(2, 3, 59, 0.12);
+}

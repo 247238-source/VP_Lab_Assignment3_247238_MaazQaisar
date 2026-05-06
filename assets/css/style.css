@@ -296,3 +296,9 @@ section h2,
   .navbar-menu { display: none; }
   .navbar-toggler { display: block; }
 }
+
+@media (max-width: 420px) {
+  .hero-copy h1 { font-size: 36px; }
+  .btn { width: 100%; }
+  .newsletter-form { display: block; background: transparent; }
+}

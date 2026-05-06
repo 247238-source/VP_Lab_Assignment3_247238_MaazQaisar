@@ -16,3 +16,10 @@ body {
 a {
   text-decoration: none;
 }
+
+.site-header {
+  padding: 18px 0 0;
+}
+.navbar {
+  padding: 0;
+}

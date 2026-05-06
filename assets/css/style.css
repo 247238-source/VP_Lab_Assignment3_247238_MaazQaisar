@@ -272,3 +272,12 @@ section h2,
   font-size: 22px;
   line-height: 1.25;
 }
+
+.site-footer {
+  padding: 72px 0 28px;
+  color: #ffffff;
+  background: #02033b;
+}
+.site-footer h2 { color: #ffffff; font-size: 48px; }
+.site-footer ul { list-style: none; padding: 0; }
+.site-footer a { color: rgba(255, 255, 255, 0.7); }

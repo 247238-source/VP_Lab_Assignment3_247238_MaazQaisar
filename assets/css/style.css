@@ -218,3 +218,12 @@ section h2,
 .story-panel-yellow {
   background: #ffc247;
 }
+
+.spying-section {
+  padding: 95px 0;
+  background: #2323b6;
+  color: #ffffff;
+}
+.spying-section h2, .spying-section p {
+  color: #ffffff;
+}

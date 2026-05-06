@@ -99,6 +99,21 @@ a {
   border: 2px solid #02033b;
 }
 
+.btn-outline-custom:hover {
+  color: #ffffff;
+  background: #02033b;
+}
+
+.btn-dark-custom {
+  color: black;
+  border: 2px solid black;
+}
+
+.btn-dark-custom:hover {
+  color: #02033b;
+  background: transparent;
+}
+
 .hero-media {
   position: relative;
   margin-left: auto;
@@ -174,14 +189,14 @@ section h2,
 
 .features-section {
   padding: 105px 0;
-  background-color: #f2f8ff; /* Added a light background to contrast the white card */
 }
+
 .features-card {
   box-shadow: 0 24px 60px rgba(2, 3, 59, 0.08);
 }
 .feature-item {
   height: 100%;
-  padding: 8px;
+  padding: 8px 8px 8px 0;
   text-align: center;
 }
 
@@ -278,27 +293,214 @@ section h2,
   color: #ffffff;
   background: #02033b;
 }
-.site-footer h2 { color: #ffffff; font-size: 48px; }
-.site-footer ul { list-style: none; padding: 0; }
-.site-footer a { color: rgba(255, 255, 255, 0.7); }
+.site-footer h2 {
+  max-width: 430px;
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.social-links {
+  display: flex;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.social-links a {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+}
+
+.social-links img {
+  width: 36px;
+  height: 36px;
+}
+
+.site-footer h3 {
+  margin: 0 0 18px;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.site-footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.site-footer li + li {
+  margin-top: 10px;
+}
+
+.site-footer a,
+.site-footer p,
+.footer-bottom span {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.site-footer p {
+  max-width: 360px;
+  line-height: 1.65;
+}
 
 .newsletter-form {
   display: flex;
+  max-width: 410px;
+  overflow: hidden;
   background: #ffffff;
   border-radius: 999px;
-  overflow: hidden;
 }
-.newsletter-form input { border: 0; padding: 0 22px; flex: 1; }
-.newsletter-form button { border: 0; padding: 15px 24px; background: #ffc247; font-weight: 900; }
+.newsletter-form input {
+  min-width: 0;
+  flex: 1;
+  border: 0;
+  padding: 0 22px;
+  font: inherit;
+  outline: none;
+}
+.newsletter-form button {
+  border: 0;
+  padding: 15px 24px;
+  color: #02033b;
+  background: #ffc247;
+  font-weight: 900;
+}
 
+/* ===== RESPONSIVE - TABLET (max 991px) ===== */
 @media (max-width: 991.98px) {
-  .hero-copy h1 { font-size: 52px; }
-  .navbar-menu { display: none; }
-  .navbar-toggler { display: block; }
+  .site-header {
+    padding-top: 14px;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-menu {
+    display: none;
+    width: 100%;
+    margin-left: 0;
+    padding: 18px 0 8px;
+  }
+
+  .nav-toggle:checked ~ .navbar-menu {
+    display: block;
+  }
+
+  .navbar-nav {
+    gap: 6px;
+  }
+
+  .hero-section {
+    padding: 64px 0 78px;
+  }
+
+  .hero-copy h1 {
+    font-size: 52px;
+  }
+
+  .reviews-section h2,
+  .trust-section h2,
+  .features-section h2,
+  .spying-section h2,
+  .insights-section h2 {
+    font-size: 36px;
+  }
+
+  .hero-media {
+    max-width: 520px;
+    margin: 0 auto;
+  }
 }
 
+/* ===== RESPONSIVE - MOBILE (max 767px) ===== */
+@media (max-width: 767.98px) {
+  .hero-section,
+  .reviews-section,
+  .trust-section,
+  .features-section,
+  .story-section,
+  .spying-section,
+  .insights-section {
+    padding: 64px 0;
+  }
+
+  .hero-copy h1 {
+    font-size: 42px;
+  }
+
+  .hero-copy p,
+  .trust-section p,
+  .spying-section p,
+  .story-panel p {
+    font-size: 17px;
+  }
+
+  .reviews-section h2,
+  .trust-section h2,
+  .features-section h2,
+  .spying-section h2,
+  .insights-section h2,
+  .story-panel h2 {
+    font-size: 32px;
+  }
+
+  .review-card,
+  .story-panel {
+    padding: 28px;
+  }
+
+  .story-panel {
+    min-height: 280px;
+  }
+
+  .site-footer h2 {
+    font-size: 38px;
+  }
+}
+
+/* ===== RESPONSIVE - SMALL MOBILE (max 420px) ===== */
 @media (max-width: 420px) {
-  .hero-copy h1 { font-size: 36px; }
-  .btn { width: 100%; }
-  .newsletter-form { display: block; background: transparent; }
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .navbar-brand img {
+    width: 132px;
+  }
+
+  .hero-copy h1 {
+    font-size: 36px;
+  }
+
+  .btn {
+    width: 100%;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .stars {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .newsletter-form {
+    display: block;
+    overflow: visible;
+    background: transparent;
+    border-radius: 0;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+    min-height: 52px;
+    border-radius: 999px;
+  }
+
+  .newsletter-form input {
+    margin-bottom: 12px;
+  }
 }

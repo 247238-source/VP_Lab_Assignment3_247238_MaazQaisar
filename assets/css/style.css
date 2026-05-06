@@ -159,3 +159,15 @@ section h2,
   border: 12px solid #ffc247;
   box-shadow: 0 24px 60px rgba(2, 3, 59, 0.12);
 }
+
+.trust-section {
+  padding: 95px 0;
+}
+
+.trust-section p {
+  max-width: 545px;
+  margin: 26px 0 34px;
+  color: #5c6485;
+  font-size: 19px;
+  line-height: 1.65;
+}

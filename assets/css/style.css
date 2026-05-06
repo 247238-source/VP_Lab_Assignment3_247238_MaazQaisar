@@ -109,3 +109,15 @@ a {
   width: 240px;
   z-index: 2;
 }
+
+.reviews-section {
+  padding: 88px 0;
+  background: #ffc247;
+}
+.review-card {
+  min-height: 260px;
+  padding: 34px;
+  background: #f2f8ff;
+  border-radius: 8px;
+  box-shadow: 0 24px 60px rgba(2, 3, 59, 0.12);
+}

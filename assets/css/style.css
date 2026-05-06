@@ -281,3 +281,12 @@ section h2,
 .site-footer h2 { color: #ffffff; font-size: 48px; }
 .site-footer ul { list-style: none; padding: 0; }
 .site-footer a { color: rgba(255, 255, 255, 0.7); }
+
+.newsletter-form {
+  display: flex;
+  background: #ffffff;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.newsletter-form input { border: 0; padding: 0 22px; flex: 1; }
+.newsletter-form button { border: 0; padding: 15px 24px; background: #ffc247; font-weight: 900; }

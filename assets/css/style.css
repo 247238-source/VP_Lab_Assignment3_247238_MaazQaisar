@@ -290,3 +290,9 @@ section h2,
 }
 .newsletter-form input { border: 0; padding: 0 22px; flex: 1; }
 .newsletter-form button { border: 0; padding: 15px 24px; background: #ffc247; font-weight: 900; }
+
+@media (max-width: 991.98px) {
+  .hero-copy h1 { font-size: 52px; }
+  .navbar-menu { display: none; }
+  .navbar-toggler { display: block; }
+}
